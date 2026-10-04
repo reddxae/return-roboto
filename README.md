@@ -41,10 +41,10 @@ Pixel OS (and Pixel-like ROMs) users should pick the `pixel` variant of the modu
 
 | Module name | Compatible Android version | Source files |
 | --- | --- | --- |
-| [`return-roboto-v17.0.zip`]() <br> [`return-roboto-v17.0-pixel.zip`]() for Pixel OS | Android 16 QPR2 / Android 17 QRP0 | [`modules/17.0`](modules/17.0/) |
-| [`return-roboto-v16.1.zip`]() <br> [`return-roboto-v16.1-pixel.zip`]() for Pixel OS | Android 16 QPR1 | [`modules/16.1`](modules/16.1/) |
-| [`return-roboto-v16.0.zip`]() <br> [`return-roboto-v16.0-pixel.zip`]() for Pixel OS | Android 16 QPR0 | [`modules/16.0`](modules/16.0/) |
-| [`return-roboto-v15.0.zip`]() <br> [`return-roboto-v15.0-pixel.zip`]() for Pixel OS | Android 15 QPR0/QPR1/QPR2 | [`modules/15.0`](modules/15.0/) |
+| [`return-roboto-v17.0.zip`](https://github.com/reddxae/return-roboto/releases/download/v17.0/return-roboto-v17.0.zip) <br> [`return-roboto-v17.0-pixel.zip`](https://github.com/reddxae/return-roboto/releases/download/v17.0/return-roboto-v17.0-pixel.zip) for Pixel OS | Android 16 QPR2 / Android 17 QRP0 | [`modules/17.0`](modules/17.0/) |
+| [`return-roboto-v16.1.zip`](https://github.com/reddxae/return-roboto/releases/download/v16.1/return-roboto-v16.1.zip) <br> [`return-roboto-v16.1-pixel.zip`](https://github.com/reddxae/return-roboto/releases/download/v16.1/return-roboto-v16.1-pixel.zip) for Pixel OS | Android 16 QPR1 | [`modules/16.1`](modules/16.1/) |
+| [`return-roboto-v16.0.zip`](https://github.com/reddxae/return-roboto/releases/download/v16.0/return-roboto-v16.0.zip) <br> [`return-roboto-v16.0-pixel.zip`](https://github.com/reddxae/return-roboto/releases/download/v16.0/return-roboto-v16.0-pixel.zip) for Pixel OS | Android 16 QPR0 | [`modules/16.0`](modules/16.0/) |
+| [`return-roboto-v15.0.zip`](https://github.com/reddxae/return-roboto/releases/download/v15.0/return-roboto-v15.0.zip) <br> [`return-roboto-v15.0-pixel.zip`](https://github.com/reddxae/return-roboto/releases/download/v15.0/return-roboto-v15.0-pixel.zip) for Pixel OS | Android 15 QPR0/QPR1/QPR2 | [`modules/15.0`](modules/15.0/) |
 
 Android 15 QPR0/QPR1/QPR2 module automatically adapts CJK entries when an older static font is installed. This is not needed on newer versions since Android 15 QPR2, but I kept the module unified for convenience.
 
