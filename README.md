@@ -37,7 +37,7 @@ The module adds the missing names to `/product/etc/fonts_customization.xml`, whi
 
 Grab the relevant module from Releases or directly from the table below.
 
-Pixel OS (and Pixel-like ROMs) users should pick the `pixel` variant of the module to save Google Sans on the lockscreen, since its metrics are hardcoded in the framework, and another font will most likely not be centered correctly.
+Pixel OS (and Pixel-like ROMs) users should pick the `pixel` variant of the module to save Google Sans on the lockscreen, since its metrics are hardcoded in the framework, and another font will most likely not be centered correctly. This variant also preserves additional Pixel-specific fonts used for clock customization.
 
 | Module name | Compatible Android version | Source files |
 | --- | --- | --- |
