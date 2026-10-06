@@ -138,6 +138,8 @@
     <alias name="helvetica" to="sans-serif" />
     <alias name="tahoma" to="sans-serif" />
     <alias name="verdana" to="sans-serif" />
+    <alias name="sans-serif-regular" to="sans-serif" weight="400" />
+    <alias name="roboto-regular" to="sans-serif" weight="400" />
 
     <family name="sans-serif-condensed">
       <font weight="100" style="normal">Roboto-Regular.ttf
@@ -288,6 +290,55 @@
         <font weight="700" style="italic">SourceSansPro-BoldItalic.ttf</font>
     </family>
     <alias name="source-sans-pro-semi-bold" to="source-sans-pro" weight="600"/>
+
+    <!-- Explicit italic family used by the product font aliases. -->
+    <family name="roboto-italic">
+        <font weight="100" style="italic">Roboto-Regular.ttf
+          <axis tag="ital" stylevalue="1" />
+          <axis tag="wdth" stylevalue="100" />
+          <axis tag="wght" stylevalue="100" />
+        </font>
+        <font weight="200" style="italic">Roboto-Regular.ttf
+          <axis tag="ital" stylevalue="1" />
+          <axis tag="wdth" stylevalue="100" />
+          <axis tag="wght" stylevalue="200" />
+        </font>
+        <font weight="300" style="italic">Roboto-Regular.ttf
+          <axis tag="ital" stylevalue="1" />
+          <axis tag="wdth" stylevalue="100" />
+          <axis tag="wght" stylevalue="300" />
+        </font>
+        <font weight="400" style="italic">Roboto-Regular.ttf
+          <axis tag="ital" stylevalue="1" />
+          <axis tag="wdth" stylevalue="100" />
+          <axis tag="wght" stylevalue="400" />
+        </font>
+        <font weight="500" style="italic">Roboto-Regular.ttf
+          <axis tag="ital" stylevalue="1" />
+          <axis tag="wdth" stylevalue="100" />
+          <axis tag="wght" stylevalue="500" />
+        </font>
+        <font weight="600" style="italic">Roboto-Regular.ttf
+          <axis tag="ital" stylevalue="1" />
+          <axis tag="wdth" stylevalue="100" />
+          <axis tag="wght" stylevalue="600" />
+        </font>
+        <font weight="700" style="italic">Roboto-Regular.ttf
+          <axis tag="ital" stylevalue="1" />
+          <axis tag="wdth" stylevalue="100" />
+          <axis tag="wght" stylevalue="700" />
+        </font>
+        <font weight="800" style="italic">Roboto-Regular.ttf
+          <axis tag="ital" stylevalue="1" />
+          <axis tag="wdth" stylevalue="100" />
+          <axis tag="wght" stylevalue="800" />
+        </font>
+        <font weight="900" style="italic">Roboto-Regular.ttf
+          <axis tag="ital" stylevalue="1" />
+          <axis tag="wdth" stylevalue="100" />
+          <axis tag="wght" stylevalue="900" />
+        </font>
+    </family>
 
     <family name="roboto-flex">
         <font weight="100" style="normal">RobotoFlex-Regular.ttf
@@ -1025,8 +1076,12 @@
             <axis tag="wdth" stylevalue="100.0"/>
             <axis tag="wght" stylevalue="190.0"/>
         </font>
-        <font weight="400" style="normal" fallbackFor="serif">NotoSerifKhmer-Regular.otf</font>
-        <font weight="700" style="normal" fallbackFor="serif">NotoSerifKhmer-Bold.otf</font>
+        <font weight="400" style="normal" fallbackFor="serif">NotoSerifKhmer-Regular.ttf
+            <axis tag="wght" stylevalue="400.0"/>
+        </font>
+        <font weight="700" style="normal" fallbackFor="serif">NotoSerifKhmer-Regular.ttf
+            <axis tag="wght" stylevalue="700.0"/>
+        </font>
     </family>
     <family lang="und-Khmr" variant="compact">
         <font weight="400" style="normal" postScriptName="NotoSansKhmerUI">
@@ -1581,9 +1636,6 @@
         <font weight="400" style="normal" index="1" fallbackFor="serif"
               postScriptName="NotoSerifCJKjp-Regular">NotoSerifCJK-Regular.ttc
         </font>
-    </family>
-    <family lang="und-Zsye" ignore="true">
-        <font weight="400" style="normal">NotoColorEmojiLegacy.ttf</font>
     </family>
     <family lang="und-Zsye">
         <font weight="400" style="normal">NotoColorEmoji.ttf</font>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fonts-modification version="1">
   <!-- Preserve the names used by the UI and map their base weights to system Roboto. -->
-  <!-- Aliases reuse /system/fonts/Roboto-Regular.ttf through sans-serif; no product TTFs needed. -->
+  <!-- UI aliases reuse /system/fonts/Roboto-Regular.ttf through system families. -->
 
   <!-- Display -->
   <alias name="variable-display-large" to="sans-serif" weight="400"/>
@@ -52,16 +52,30 @@
   <alias name="google-sans-medium" to="sans-serif" weight="500"/>
   <alias name="google-sans-bold" to="sans-serif" weight="700"/>
   <alias name="google-sans-flex" to="sans-serif" weight="400"/>
+  <!-- Font overlays can request these names directly for QS labels and other UI text. -->
+  <alias name="google-sans-flex-medium" to="sans-serif" weight="500"/>
+  <alias name="google-sans-flex-bold" to="sans-serif" weight="700"/>
   <alias name="google-sans-text" to="sans-serif" weight="400"/>
   <alias name="google-sans-text-regular" to="sans-serif" weight="400"/>
   <alias name="google-sans-text-medium" to="sans-serif" weight="500"/>
   <alias name="google-sans-text-bold" to="sans-serif" weight="700"/>
+  <!-- The system family fixes ital=1; aliases select the requested weight. -->
+  <alias name="google-sans-text-italic" to="roboto-italic" weight="400"/>
+  <alias name="google-sans-text-medium-italic" to="roboto-italic" weight="500"/>
+  <alias name="google-sans-text-bold-italic" to="roboto-italic" weight="700"/>
 
   <!-- In Pixel OS and Pixel-like ROMs, Google Sans is still used for the lockscreen/AOD clock,
   since its metrics are hardcoded into the framework. -->
-  <family customizationType="new-named-family" name="google-sans-clock">
-    <font>GoogleSansClock-Regular.ttf</font>
-  </family>
+  <family-list customizationType="new-named-family" name="google-sans-clock">
+    <family>
+      <font>GoogleSansClock-Regular.ttf</font>
+    </family>
+    <family>
+      <font>GoogleSansFlex-Regular.ttf
+        <axis tag="ROND" stylevalue="100"/>
+      </font>
+    </family>
+  </family-list>
 
   <family-list customizationType="new-named-family" name="google-sans-flex-clock">
     <family>
@@ -69,6 +83,11 @@
     </family>
     <family>
       <font>GoogleSansClock-Regular.ttf</font>
+    </family>
+    <family>
+      <font>GoogleSansFlex-Regular.ttf
+        <axis tag="ROND" stylevalue="100"/>
+      </font>
     </family>
   </family-list>
 </fonts-modification>
