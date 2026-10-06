@@ -7,7 +7,7 @@ Forces the use of AOSP fonts and restores the intended font weights in newer And
 
 Well, you know, Google won't be Google if they're not retarded. So, what's the deal: since Android 16 QPR1 (Material 3 Expressive update), AOSP SystemUI and some default apps such as Settings reference to font families such as `variable-label-large-emphasized`, `google-sans`, and their derivatives. These families are just **missing** from AOSP's font configuration and only provided in Google's Pixel OS through additional vendor assets. All of that stuff are separate from base AOSP, but they are hardcoded in AOSP components for some lazy or greedy reason.
 
-That's why most of AOSP-based ROMs or postmarket OSes, such as LineageOS or GrapheneOS, have this problem with broken font styles — requested resources are missing in the system, falling back to Roboto at weight 400 (regular).
+That's why most of AOSP-based ROMs or aftermarket OSes, such as LineageOS or GrapheneOS, have this problem with broken font styles — requested resources are missing in the system, falling back to Roboto at weight 400 (regular).
 
 Some custom ROMs (often called "Pixel-like" ROMs), which include Google Sans font family with Pixel's font configuration, aren't affected by this. However, you still can use this module there, as well as on Pixel OS itself; the provided configuration fits universally on Android builds that haven't been heavily modified.
 
