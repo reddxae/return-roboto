@@ -1996,16 +1996,16 @@
   <alias name="lato-bold" to="roboto-ui-400-700" weight="700"/>
   <alias name="rubik" to="roboto-ui-400-500-700" weight="400"/>
   <alias name="rubik-medium" to="roboto-ui-400-500-700" weight="500"/>
-  <alias name="zilla-slab-medium" to="serif-ui-500-600" weight="400"/>
+  <alias name="zilla-slab-medium" to="serif-ui-500-600"/>
   <alias name="zilla-slab-semi-bold" to="serif-ui-500-600" weight="600"/>
   <alias name="lustria" to="serif-ui-400" weight="400"/>
   <alias name="karla" to="roboto-ui-400" weight="400"/>
   <alias name="fraunces" to="serif-ui-400-600" weight="400"/>
   <alias name="fraunces-semi-bold" to="serif-ui-400-600" weight="600"/>
-  <alias name="big-shoulders-text" to="roboto-ui-700-800" weight="400"/>
+  <alias name="big-shoulders-text" to="roboto-ui-700-800"/>
   <alias name="big-shoulders-text-bold" to="roboto-ui-700-800" weight="700"/>
   <alias name="big-shoulders-text-extra-bold" to="roboto-ui-700-800" weight="800"/>
-  <alias name="barlow" to="roboto-ui-500-700" weight="400"/>
+  <alias name="barlow" to="roboto-ui-500-700"/>
   <alias name="barlow-bold" to="roboto-ui-500-700" weight="700"/>
   <alias name="barlow-medium" to="roboto-ui-500-700" weight="500"/>
   <!-- END UI font profiles -->
